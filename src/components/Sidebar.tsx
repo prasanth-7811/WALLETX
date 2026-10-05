@@ -50,8 +50,8 @@ export const Sidebar: React.FC = () => {
             </div>
             <div>
               <div className="font-display font-extrabold tracking-tight text-xl text-white flex items-center gap-0.5">
-                <span>VAL</span>
-                <span className="text-[#D4AF37] drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]">TO</span>
+                <span>WALLET</span>
+                <span className="text-[#D4AF37] drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]">X</span>
               </div>
               <div className="text-[9px] text-[#A39985] uppercase tracking-wider font-mono">
                 Multi-Asset Quant Engine
