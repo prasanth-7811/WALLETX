@@ -34,6 +34,7 @@ export type NavigationTab =
   | 'backtest'
   | 'robustness'
   | 'regimes'
+  | 'hmm'
   | 'ai'
   | 'data_quality'
   | 'settings';

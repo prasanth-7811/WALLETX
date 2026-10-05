@@ -9,6 +9,7 @@ import { StrategyLabPage } from './pages/StrategyLabPage';
 import { BacktestingPage } from './pages/BacktestingPage';
 import { RobustnessPage } from './pages/RobustnessPage';
 import { MarketRegimesPage } from './pages/MarketRegimesPage';
+import { HMMModelPage } from './pages/HMMModelPage';
 import { AIResearchPage } from './pages/AIResearchPage';
 import { DataQualityPage } from './pages/DataQualityPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -32,6 +33,8 @@ const AppContent: React.FC = () => {
         return <RobustnessPage />;
       case 'regimes':
         return <MarketRegimesPage />;
+      case 'hmm':
+        return <HMMModelPage />;
       case 'ai':
         return <AIResearchPage />;
       case 'data_quality':
